@@ -76,6 +76,11 @@ input {
 main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
 nav button {
@@ -94,8 +99,17 @@ nav button {
     border-radius: 8px;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card-footer * {
